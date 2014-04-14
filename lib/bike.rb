@@ -1,19 +1,18 @@
 class Bike
-  # the initialize method is always called when you create a new
-  # class by typing Bike.new
-  def initialize
-    @broken = false
+
+  def initiliaze
+    fix!
   end
 
   def broken?
     @broken
   end
 
-  def break
+  def break!
     @broken = true
   end
 
-  def fix
+  def fix!
     @broken = false
   end
 
