@@ -1,32 +1,15 @@
+# load BikeContainer
+require_relative 'bike_container'
+
 class DockingStation
 
-  DEFAULT_CAPACITY = 10
+  # this gives us all the methods that used to be in the class
+  include BikeContainer
 
   def initialize(options = {})
-    @capacity = options.fetch(:capacity, DEFAULT_CAPACITY)
-    @bikes = []
-  end
-
-  def bike_count
-    @bikes.count
-  end
-
-  def dock(bike)
-    # if the capacity is reached, raise an error
-    raise "Station is full" if full?
-    @bikes << bike
-  end
-
-  def release(bike)
-    @bikes.delete(bike)
-  end
-
-  def full?
-    bike_count == @capacity
-  end
-
-  def available_bikes
-    @bikes.reject { |bikes| bikes.broken? }
+    # @capacity = options.fetch(:capacity, DEFAULT_CAPACITY)
+    # @bikes = []
+    self.capacity = options.fetch(:capacity, capacity)
   end
 
 end
