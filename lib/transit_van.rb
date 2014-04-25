@@ -1,10 +1,10 @@
 require_relative './bikecontainer'
 
-class DockingStation
+class TransitVan
 	include BikeContainer
 
 	def initialize
 		@bikes = []
-		@capacity = 20
+		@capacity = 10
 	end
 end
