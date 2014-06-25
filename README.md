@@ -8,15 +8,7 @@ This task was set by Enrique Comba Riepenhausen
 [Makers Academy](http://www.makersacademy.com). The purpose was to build
 an object oriented model based on the Travel for London Cycle Hire scheme.
 
-I paired with [Yuin Huang](https://github.com/yuin23). We started by writing CRC cards
-(Class, Responsibilities, Collaborators) with pen and paper. Then we used RSpec
-to develop our model using TDD.
-
-This model could be improved by drying out the cross-cutting concern of
-storing bikes in the Station, Garage and Van classes. A `BikeStore` module might
-be appropriate.
-
-Here are our CRC cards:
+We started by writing CRC cards (Class, Responsibilities, Collaborators) with pen and paper. Then we used RSpec to develop our model using TDD.
 
 #### Class Bike
 
@@ -79,7 +71,7 @@ How to use
 ---------------
 
 ```
-clone git@github.com:Maikon/airport_test.git
+clone git@github.com:apostoiis/boris-bikes.git
 cd boris-bikes
 rspec
 ```
