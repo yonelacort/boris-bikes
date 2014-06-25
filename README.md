@@ -73,11 +73,13 @@ Here are our CRC cards:
 | deliver working Bikes to Stations if there is space  |                |
 
 
+![Boris Bikes](/images/logo.jpg)
 
+How to use
+---------------
 
-  can accept bikes
-  can release working bikes
-  knows it's capacity is 20 bikes
-  will sort through the bikes to ensure a working bike is loaned instead of a broken bike
-  knows how many bikes are docked
-  can dock a broken bike
+```
+clone git@github.com:Maikon/airport_test.git
+cd boris-bikes
+rspec
+```
