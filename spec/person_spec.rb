@@ -36,6 +36,6 @@ describe Person do
 	it "no longer has a bike after return_bike_to station" do
     station = double :station, dock: :bike
     person.return_bike_to(station)
-    expect(person.has_bike?).to be_false
+    expect(person.has_bike?).to be false
 	end
 end

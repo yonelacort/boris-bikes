@@ -3,8 +3,8 @@ require 'boris_bikes'
 describe Bike do
 	let(:bike) { Bike.new }
 
-	it "is not broken" do
-		expect(bike.broken?).to be_false
+	it "is not broken on initialization" do
+		expect(bike.broken?).to be false
 	end
 
 	it "can break" do
