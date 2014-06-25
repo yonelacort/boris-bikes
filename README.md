@@ -57,13 +57,9 @@ We started by writing CRC cards (Class, Responsibilities, Collaborators) with pe
 
 | Responsibilities                                     | Collaborators  |
 | :--------------------------------------------------- | :------------  |
-| belong to the Garage                                 | Garage         |
-| receive orders from the Garage                       | DockingStation |
-| collect broken Bikes from Stations                   | Bike           |
-| deliver broken Bikes to the Garage                   |                |
-| collect working Bikes from the Garage                |                |
-| deliver working Bikes to Stations if there is space  |                |
-
+| has 20 bikes after docking 20 single bikes           | Garage         |
+| has 1 bike after docking 1 single bike               | DockingStation |
+| has bikes after docking array                        | Bike           |
 
 ![Boris Bikes](/images/logo.jpg)
 
