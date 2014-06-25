@@ -36,7 +36,7 @@ We started by writing CRC cards (Class, Responsibilities, Collaborators) with pe
 | can dock a broken bike                           | Van           |
 | has a capacity of 20 bikes                       | Garage        |
 | will sort through the bikes to ensure a working  |               |
-  bike is loaned instead of a broken bike
+| bike is loaned instead of a broken bike          |               |
 | knows how many bikes are docked                  |               |
 | can dock a broken bike                           |               |
 | allow the Van to collect broken Bikes            |               |
